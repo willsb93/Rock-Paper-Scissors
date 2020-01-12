@@ -1,4 +1,4 @@
-##<h1>Rock Paper Scissors Game.</h1>
+<h1>Rock Paper Scissors Game.</h1>
 
 <p>A simple Rock Paper Scissors Game.</p>
 
