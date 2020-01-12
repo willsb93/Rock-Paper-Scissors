@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Tomorrow:400,700&display=swap');
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Tomorrow"; sans-ser
+}
+
+header{
+	background: #39CCCC;
+	 
+}
+
+
+body{
+	background-color: #001f3f;
+}
+
+header > h1{
+	text-align: center;
+	padding: 35px;
+}
+
+.gameScore {
+	position: relative;
+	border: 5px solid #F012BE;
+	width: 300px;
+	height: 100px;
+	border-radius: 5px;
+	box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ff0080, 0 0 30px #ff0080, 0 0 40px #ff0080, 0 0 55px #ff0080, 0 0 75px #ff0080;
+	margin:38px auto;
+	color: white;
+	font-size: 25px;
+	text-align: center;
+	padding: 23px 12px;
+
+
+}
+
+.badge{
+	background: black;
+	text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ff0080, 0 0 30px #ff0080, 0 0 40px #ff0080, 0 0 55px #ff0080, 0 0 75px #ff0080;
+	color:white;
+	font-size:19px;
+	padding:2px 5px;
+}
+
+#user-badge{
+	position:absolute;
+	top:33px;
+	left:-25px;
+}
+
+#cpu-badge{
+	position:absolute;
+	top:33px;
+	right:-25px;
+}
+
+#user-score{
+	font-size:40px;
+}
+
+#cpu-score{
+	font-size:40px;
+}
+
+
+
+.result {
+	font-size:50px;
+	font-weight: bold;
+	text-align: center;
+	padding: 25px;
+	color: white;
+}
+
+.picks{
+	text-align: center;
+	margin: 35px 0px;
+}
+
+.pick {
+	color: white;
+	display: inline-block;
+	border: 3px solid #F012BE ;
+	box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ff0080, 0 0 30px #ff0080, 0 0 40px #ff0080, 0 0 55px #ff0080, 0 0 75px #ff0080;
+	border-radius:5px;
+	padding: 12px;
+	margin: 0px 25px;
+}
+
+.pick:hover{
+	cursor: pointer;
+	text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ff0080, 0 0 30px #ff0080, 0 0 40px #ff0080, 0 0 55px #ff0080, 0 0 75px #ff0080;
+	transition: 0.8s;
+}
+
+
+
+#message {
+	text-align: center;
+	color: white;
+	font-size: 25px;
+}
